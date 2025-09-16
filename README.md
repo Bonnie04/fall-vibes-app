@@ -1,31 +1,12 @@
-# fall-vibes-app
-A small React app that captures the vibe of September with interactive features.
+# React + Vite
 
-# 🍂 September Vibes App
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-A small React app built for the **GitHub Copilot September Challenge**.  
-The goal: capture the cozy, back-to-school, September feeling in a simple GUI app.  
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features (Planned / Completed)
-- [ ] Interactive GUI (React + Vite)
-- [ ] “September vibes” theme (colors, animations, or cozy design)
-- [ ] Core feature (TBD: Study Timer, Notes App, or Weather)
-- [ ] Copilot-assisted code generation
-- [ ] Demo screenshot / GIF for submission
+## Expanding the ESLint configuration
 
----
-
-## 🛠️ Tech Stack
-- [React](https://react.dev/) (via Vite)
-- [Tailwind CSS](https://tailwindcss.com/) (optional, for styling)
-- GitHub Copilot (assistance)
-
----
-
-## 📝 How to Run Locally
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
